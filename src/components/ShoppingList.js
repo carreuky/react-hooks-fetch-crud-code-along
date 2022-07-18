@@ -27,6 +27,7 @@ function ShoppingList() {
     setItems([...items, newItem]);
     newItem.name=''
   }
+  
   function handleUpdatedItem(updatedItem){
     const updatedItems = items.map((item) => {
       if (item.id === updatedItem.id) {
